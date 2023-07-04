@@ -15,9 +15,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """
         Checks the parameters and initializes some values
-        Args:
-            width (:obj:`int`, optional): The width of the Rectangle.
-            height (:obj:`if the Rectangle.
+       
         """
 
         self.width = width
@@ -44,11 +42,7 @@ class Rectangle:
     def width(self, value):
         """
         Checks the parameters and set the size of the Rectangle
-        Args:
-            value (int): The width of the Rectangle.
-        Raises:
-            TypeError: If `value` type is not `int`.
-            ValueError: If `value` is less than `0`.
+       
         """
 
         self.__check_valid_width(value)
